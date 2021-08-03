@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D727577660B81F4EDA5ED98 /* Pods_KVODemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9232B99B39F7E6E1B3728189 /* Pods_KVODemo.framework */; };
+		BF2503DF26B391F200F5F019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2503DE26B391F200F5F019 /* AppDelegate.m */; };
+		BF2503E226B391F200F5F019 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2503E126B391F200F5F019 /* SceneDelegate.m */; };
+		BF2503E526B391F200F5F019 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2503E426B391F200F5F019 /* ViewController.m */; };
+		BF2503E826B391F200F5F019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2503E626B391F200F5F019 /* Main.storyboard */; };
+		BF2503EA26B391F400F5F019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2503E926B391F400F5F019 /* Assets.xcassets */; };
+		BF2503ED26B391F400F5F019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2503EB26B391F400F5F019 /* LaunchScreen.storyboard */; };
+		BF2503F026B391F400F5F019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2503EF26B391F400F5F019 /* main.m */; };
+		BF2503F926B3930E00F5F019 /* HPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2503F826B3930E00F5F019 /* HPObject.m */; };
+		BF2503FD26B3935700F5F019 /* HPCat.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2503FC26B3935700F5F019 /* HPCat.m */; };
+		BF25040126B3938F00F5F019 /* HPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF25040026B3938F00F5F019 /* HPDetailViewController.m */; };
+		BF32B83E26B8DF5B001309D4 /* NSObject+HP_KVO_Block.m in Sources */ = {isa = PBXBuildFile; fileRef = BF32B83D26B8DF5B001309D4 /* NSObject+HP_KVO_Block.m */; };
+		BF32B85026B91CF8001309D4 /* NSObject+SafeKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = BF32B84F26B91CF8001309D4 /* NSObject+SafeKVO.m */; };
+		BF657B9126B7D748001422D5 /* NSObject+HP_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = BF657B9026B7D748001422D5 /* NSObject+HP_KVO.m */; };
+		BF657B9B26B7F9EE001422D5 /* HPKVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF657B9A26B7F9EE001422D5 /* HPKVOInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		214D51B0BB3EF9F8A5DEB3F9 /* Pods-KVODemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemo.release.xcconfig"; path = "Target Support Files/Pods-KVODemo/Pods-KVODemo.release.xcconfig"; sourceTree = "<group>"; };
+		9232B99B39F7E6E1B3728189 /* Pods_KVODemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVODemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2503DA26B391F200F5F019 /* KVODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2503DD26B391F200F5F019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF2503DE26B391F200F5F019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF2503E026B391F200F5F019 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BF2503E126B391F200F5F019 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BF2503E326B391F200F5F019 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF2503E426B391F200F5F019 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF2503E726B391F200F5F019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2503E926B391F400F5F019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2503EC26B391F400F5F019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF2503EE26B391F400F5F019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2503EF26B391F400F5F019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2503F726B3930E00F5F019 /* HPObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPObject.h; sourceTree = "<group>"; };
+		BF2503F826B3930E00F5F019 /* HPObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPObject.m; sourceTree = "<group>"; };
+		BF2503FB26B3935700F5F019 /* HPCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPCat.h; sourceTree = "<group>"; };
+		BF2503FC26B3935700F5F019 /* HPCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPCat.m; sourceTree = "<group>"; };
+		BF2503FF26B3938F00F5F019 /* HPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPDetailViewController.h; sourceTree = "<group>"; };
+		BF25040026B3938F00F5F019 /* HPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPDetailViewController.m; sourceTree = "<group>"; };
+		BF32B83C26B8DF5B001309D4 /* NSObject+HP_KVO_Block.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HP_KVO_Block.h"; sourceTree = "<group>"; };
+		BF32B83D26B8DF5B001309D4 /* NSObject+HP_KVO_Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HP_KVO_Block.m"; sourceTree = "<group>"; };
+		BF32B84E26B91CF8001309D4 /* NSObject+SafeKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeKVO.h"; sourceTree = "<group>"; };
+		BF32B84F26B91CF8001309D4 /* NSObject+SafeKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeKVO.m"; sourceTree = "<group>"; };
+		BF657B8F26B7D748001422D5 /* NSObject+HP_KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HP_KVO.h"; sourceTree = "<group>"; };
+		BF657B9026B7D748001422D5 /* NSObject+HP_KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HP_KVO.m"; sourceTree = "<group>"; };
+		BF657B9926B7F9EE001422D5 /* HPKVOInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPKVOInfo.h; sourceTree = "<group>"; };
+		BF657B9A26B7F9EE001422D5 /* HPKVOInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPKVOInfo.m; sourceTree = "<group>"; };
+		D8E4A6F1448219829178C494 /* Pods-KVODemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemo.debug.xcconfig"; path = "Target Support Files/Pods-KVODemo/Pods-KVODemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2503D726B391F200F5F019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D727577660B81F4EDA5ED98 /* Pods_KVODemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B753BB5E8021AD2502D53DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8E4A6F1448219829178C494 /* Pods-KVODemo.debug.xcconfig */,
+				214D51B0BB3EF9F8A5DEB3F9 /* Pods-KVODemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0A86B6E3EF00533F3558EE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9232B99B39F7E6E1B3728189 /* Pods_KVODemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2503D126B391F200F5F019 = {
+			isa = PBXGroup;
+			children = (
+				BF2503DC26B391F200F5F019 /* KVODemo */,
+				BF2503DB26B391F200F5F019 /* Products */,
+				8B753BB5E8021AD2502D53DC /* Pods */,
+				B0A86B6E3EF00533F3558EE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2503DB26B391F200F5F019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2503DA26B391F200F5F019 /* KVODemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2503DC26B391F200F5F019 /* KVODemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF2503DD26B391F200F5F019 /* AppDelegate.h */,
+				BF2503DE26B391F200F5F019 /* AppDelegate.m */,
+				BF2503E026B391F200F5F019 /* SceneDelegate.h */,
+				BF2503E126B391F200F5F019 /* SceneDelegate.m */,
+				BF2503E326B391F200F5F019 /* ViewController.h */,
+				BF2503E426B391F200F5F019 /* ViewController.m */,
+				BF2503FF26B3938F00F5F019 /* HPDetailViewController.h */,
+				BF25040026B3938F00F5F019 /* HPDetailViewController.m */,
+				BF657B9926B7F9EE001422D5 /* HPKVOInfo.h */,
+				BF657B9A26B7F9EE001422D5 /* HPKVOInfo.m */,
+				BF657B8F26B7D748001422D5 /* NSObject+HP_KVO.h */,
+				BF657B9026B7D748001422D5 /* NSObject+HP_KVO.m */,
+				BF32B83C26B8DF5B001309D4 /* NSObject+HP_KVO_Block.h */,
+				BF32B83D26B8DF5B001309D4 /* NSObject+HP_KVO_Block.m */,
+				BF32B84E26B91CF8001309D4 /* NSObject+SafeKVO.h */,
+				BF32B84F26B91CF8001309D4 /* NSObject+SafeKVO.m */,
+				BF2503F726B3930E00F5F019 /* HPObject.h */,
+				BF2503F826B3930E00F5F019 /* HPObject.m */,
+				BF2503FB26B3935700F5F019 /* HPCat.h */,
+				BF2503FC26B3935700F5F019 /* HPCat.m */,
+				BF2503E626B391F200F5F019 /* Main.storyboard */,
+				BF2503E926B391F400F5F019 /* Assets.xcassets */,
+				BF2503EB26B391F400F5F019 /* LaunchScreen.storyboard */,
+				BF2503EE26B391F400F5F019 /* Info.plist */,
+				BF2503EF26B391F400F5F019 /* main.m */,
+			);
+			path = KVODemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2503D926B391F200F5F019 /* KVODemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2503F326B391F400F5F019 /* Build configuration list for PBXNativeTarget "KVODemo" */;
+			buildPhases = (
+				CF3F08834606C378873F6075 /* [CP] Check Pods Manifest.lock */,
+				BF2503D626B391F200F5F019 /* Sources */,
+				BF2503D726B391F200F5F019 /* Frameworks */,
+				BF2503D826B391F200F5F019 /* Resources */,
+				1F26DB137A4CF5A9259EA4B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVODemo;
+			productName = KVODemo;
+			productReference = BF2503DA26B391F200F5F019 /* KVODemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2503D226B391F200F5F019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BF2503D926B391F200F5F019 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BF2503D526B391F200F5F019 /* Build configuration list for PBXProject "KVODemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF2503D126B391F200F5F019;
+			productRefGroup = BF2503DB26B391F200F5F019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2503D926B391F200F5F019 /* KVODemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2503D826B391F200F5F019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2503ED26B391F400F5F019 /* LaunchScreen.storyboard in Resources */,
+				BF2503EA26B391F400F5F019 /* Assets.xcassets in Resources */,
+				BF2503E826B391F200F5F019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F26DB137A4CF5A9259EA4B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVODemo/Pods-KVODemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVODemo/Pods-KVODemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KVODemo/Pods-KVODemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3F08834606C378873F6075 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVODemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2503D626B391F200F5F019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2503FD26B3935700F5F019 /* HPCat.m in Sources */,
+				BF657B9B26B7F9EE001422D5 /* HPKVOInfo.m in Sources */,
+				BF2503E526B391F200F5F019 /* ViewController.m in Sources */,
+				BF2503F926B3930E00F5F019 /* HPObject.m in Sources */,
+				BF25040126B3938F00F5F019 /* HPDetailViewController.m in Sources */,
+				BF2503DF26B391F200F5F019 /* AppDelegate.m in Sources */,
+				BF2503F026B391F400F5F019 /* main.m in Sources */,
+				BF657B9126B7D748001422D5 /* NSObject+HP_KVO.m in Sources */,
+				BF2503E226B391F200F5F019 /* SceneDelegate.m in Sources */,
+				BF32B83E26B8DF5B001309D4 /* NSObject+HP_KVO_Block.m in Sources */,
+				BF32B85026B91CF8001309D4 /* NSObject+SafeKVO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF2503E626B391F200F5F019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2503E726B391F200F5F019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF2503EB26B391F400F5F019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2503EC26B391F400F5F019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2503F126B391F400F5F019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF2503F226B391F400F5F019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2503F426B391F400F5F019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E4A6F1448219829178C494 /* Pods-KVODemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KVODemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaizai.KVODemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF2503F526B391F400F5F019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214D51B0BB3EF9F8A5DEB3F9 /* Pods-KVODemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KVODemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaizai.KVODemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2503D526B391F200F5F019 /* Build configuration list for PBXProject "KVODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2503F126B391F400F5F019 /* Debug */,
+				BF2503F226B391F400F5F019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2503F326B391F400F5F019 /* Build configuration list for PBXNativeTarget "KVODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2503F426B391F400F5F019 /* Debug */,
+				BF2503F526B391F400F5F019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF2503D226B391F200F5F019 /* Project object */;
+}

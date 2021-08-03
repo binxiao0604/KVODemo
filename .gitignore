@@ -1,0 +1,8 @@
+.DS_Store
+MonkeyDemo/TargetApp/*.ipa
+MonkeyDemo/TargetApp/*.app
+
+MonkeyDemo/tmp/*
+LatestBuild/*
+*.ipa
+

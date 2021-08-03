@@ -1,0 +1,16 @@
+PODS:
+  - KVOController (1.2.0)
+
+DEPENDENCIES:
+  - KVOController
+
+SPEC REPOS:
+  trunk:
+    - KVOController
+
+SPEC CHECKSUMS:
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+
+PODFILE CHECKSUM: 357aedbda5496e4cc21b0e331b0e73d1c49698e4
+
+COCOAPODS: 1.10.0
